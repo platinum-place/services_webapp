@@ -28,6 +28,6 @@ Route::middleware([
 
 
     Route::get('/services', function () {
-        return view('dashboard');
+        return view('services.index');
     })->name('services');
 });
